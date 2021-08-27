@@ -2,7 +2,7 @@ name: Convert Library
 
 on:
   schedule:
-  - cron: "0 0 * * *" # Run at midnight every day
+  - cron: "0 0 * * Mon" # Run at midnight every day
 
 env:
   CARGO_TERM_COLOR: always
