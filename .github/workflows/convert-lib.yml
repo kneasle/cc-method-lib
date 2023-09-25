@@ -15,7 +15,7 @@ jobs:
     - name: checkout repo
       uses: actions/checkout@v2
     - name: download
-      run: curl https://methods.cccbr.org.uk/xml/CCCBR_methods.xml.zip > CCCBR_methods.xml.zip
+      run: curl http://methods.cccbr.org.uk/xml/CCCBR_methods.xml.zip > CCCBR_methods.xml.zip
     - name: unzip
       run: unzip CCCBR_methods.xml.zip
     - name: convert
